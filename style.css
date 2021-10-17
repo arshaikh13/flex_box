@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+
+nav{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: end;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.imgdiv{
+    height: 200px;
+    position: relative;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://t3.ftcdn.net/jpg/02/61/67/14/360_F_261671422_MOJX6VsX6rZd6zlJ2FONkyjsCRElhhxt.jpg");
+}
+
+p{
+    font-size: 40px;
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+
+.content1{
+    height: 100px;
+    width: 200px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 8px;
+    border-top: 30px solid black;
+}
+
+.wrapper{
+    position: relative;
+    top: 50px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.wrapper2{
+    position:relative;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height:200px;
+    width: 90%;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.p2{
+    font-size: 15px;
+}
+
+.wrapper3{
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content2{
+    height: 125px;
+    width: 280px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 8px;
+    border-top: 40px solid black;
+}
+
+footer{
+    position:relative;
+    top: 100px;
+    height: 30px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h2{
+    font-size: 20px;
+}
